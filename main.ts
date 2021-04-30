@@ -8,6 +8,9 @@ input.onButtonPressed(Button.B, function () {
     basic.showArrow(ArrowNames.East)
 })
 basic.showIcon(IconNames.Heart)
+basic.pause(1000)
+basic.showIcon(IconNames.SmallHeart)
+basic.pause(1000)
 basic.forever(function () {
 	
 })
